@@ -1,7 +1,7 @@
-from gitwrapper.gitwrapper import GitWrapper
+from mini_git.wrapper import GitWrapper
 
 # Instantiate the GitWrapper class
-wrapper = GitWrapper('/path/to/your/repo')
+wrapper = GitWrapper('/path/to/your/local/repository')
 
 # Get the list of branches
 branches = wrapper.get_branches()
