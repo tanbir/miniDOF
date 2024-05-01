@@ -1,4 +1,4 @@
-from dockerwrapper.dockerwrapper import DockerWrapper
+from mini_docker.wrapper import DockerWrapper
 
 # Instantiate the GitWrapper class
 wrapper = DockerWrapper()
